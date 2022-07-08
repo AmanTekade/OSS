@@ -29,7 +29,7 @@ namespace WebApp.Controllers
 
             BankingServiceReference.IService1 bankingService = new BankingServiceReference.Service1Client();
             BankingServiceReference.Account acct = bankingService.GetAccountDetails("456");
-             ViewBag.AccountHolder = acct.Name;
+            //ViewBag.AccountHolder = acct.Name;
 
 
 
